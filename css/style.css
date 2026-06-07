@@ -24,7 +24,7 @@ header {
 
 header h1 {
     font-family: 'Lora', serif;
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -91,14 +91,12 @@ h2 {
     padding-bottom: 10px;
     display: inline-block;
 }
-
 ul {
     padding-left: 20px;
 }
 li {
     margin-bottom: 1rem;
 }
-
 strong {
     color: #8a5e00;
 }
@@ -256,7 +254,7 @@ footer {
     padding: 2rem;
     font-size: 0.9rem;
 }
-.quiz-section {
+.quizblock {
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #e2c46a;
@@ -300,7 +298,7 @@ button:hover {
     word-wrap: break-word;
 }
 
-.myth-item {
+.mythLEGEND {
     background: #fffdf0;
     border: 1px solid #e8d99a;
     border-radius: 8px;
@@ -308,11 +306,11 @@ button:hover {
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.myth-item[open] {
+.mythLEGEND[open] {
     background: #fff;
     border-color: #c9960a;
 }
-.myth-title {
+.mythklik {
     padding: 15px 20px;
     font-weight: bold;
     color: #5c3d00;
@@ -332,12 +330,12 @@ button:hover {
     margin-top: 15px;
 }
 
-.verdict.fake {
+.verdictNO {
     background-color: #fdf0f0;
     color: #c62828;
 }
 
-.verdict.true {
+.verdictYES {
     background-color: #f0fdf4;
     color: #2e7d32;
 }
